@@ -1,5 +1,10 @@
+@font-face {
+  font-family: "font1";
+  src: url(../fonts/PermanentMarker-Regular.ttf);
+}
 body {
   background: orange;
+  font-family: font1, sans-serif;
 }
 
 nav {
@@ -27,4 +32,16 @@ h1:after {
 }
 h1:hover:after {
   font-size: 2em;
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+section {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */
